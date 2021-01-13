@@ -1,0 +1,83 @@
+body {
+    height: 90vh;
+    display: grid;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 48px;
+    padding-top: 24px;
+
+}
+
+.box {
+    display: flex; 
+    /* align-items: center;
+    justify-content: center; */
+    justify-self: center;
+}
+
+.right-box, .left-box {
+    background-color: #414141;
+    width: 424px;
+    height: 600px;
+}
+
+.left-box {
+    background-color: grey;
+    border-radius: 8px 0px 0px 8px;
+}
+.right-box {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.right-box h1 {
+    margin: 107px 0px 48px 55px;
+    font-size: 32px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.formulario input:first-child{
+    margin-bottom: 16px;
+}
+
+.entrarBotao {
+    margin: 48px 0px 13px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #EC625F;
+    cursor: pointer;
+}
+
+.entrarBotao:hover {
+    color: #fff;
+    background-color: #A31D29;
+    transition: 0.5s;
+}
+
+.entrarCampos {
+    padding: 0px 20px 0px 20px;
+    background-color: #525252;
+    color: #fff;
+}
+
+
+.entrada {
+    width: 314px;
+    height: 50px;
+    border: 0px;
+    border-radius: 4px;    
+}
+
+.checkbox {
+    width: 314px;
+}
